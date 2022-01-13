@@ -1,0 +1,52 @@
+package day38_Inheritance.carTask;
+
+public class Car {
+    public String brand,model;
+    public int year,miles;
+    public String color;
+
+    public Car(String brand, String model, int year, int miles, String color) {
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+        this.miles = miles;
+        this.color = color;
+    }
+
+    public void start(){
+        System.out.println(brand+" "+model+" is started");
+    }
+
+    public void drive(){
+        System.out.println(brand+" "+model+" is driven since "+year);
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", miles=" + miles +
+                ", color='" + color + '\'' +
+                '}';
+    }
+}
+/*
+ instance methods:
+            start(), drive(),toString()
+
+    Create the following sub classes of Car:
+        1. Toyota:
+                extra methods:
+                    reliable()
+
+        2. BMW:
+                extra methods:
+                    breaksDown()
+                    racing()
+
+        3. Tesla:
+                extra methods:
+                    autoPilot();
+ */
