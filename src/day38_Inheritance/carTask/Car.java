@@ -4,13 +4,15 @@ public class Car {
     public String brand,model;
     public int year,miles;
     public String color;
+    public double price;
 
-    public Car(String brand, String model, int year, int miles, String color) {
+    public Car(String brand, String model, int year, int miles, String color,double price) {
         this.brand = brand;
         this.model = model;
         this.year = year;
         this.miles = miles;
         this.color = color;
+        this.price=price;
     }
 
     public void start(){
@@ -29,6 +31,7 @@ public class Car {
                 ", year=" + year +
                 ", miles=" + miles +
                 ", color='" + color + '\'' +
+                ", price= $" + price +
                 '}';
     }
 }
