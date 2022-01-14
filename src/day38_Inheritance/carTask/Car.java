@@ -23,7 +23,7 @@ public class Car {
         System.out.println(brand+" "+model+" is driven since "+year);
     }
 
-    @Override
+
     public String toString() {
         return "Car{" +
                 "brand='" + brand + '\'' +
