@@ -1,7 +1,6 @@
-package Day31_Constructors;
+package day31_Constructors;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class StudentObjects {
     public static void main(String[] args) {

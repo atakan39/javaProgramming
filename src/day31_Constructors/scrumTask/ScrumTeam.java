@@ -1,4 +1,4 @@
-package Day31_Constructors.scrumTask;
+package day31_Constructors.scrumTask;
 
 import java.util.ArrayList;
 import java.util.Arrays;

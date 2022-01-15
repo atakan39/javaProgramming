@@ -1,4 +1,4 @@
-package Day31_Constructors;
+package day31_Constructors;
 
 public class PersonObjects {
     public static void main(String[] args) {

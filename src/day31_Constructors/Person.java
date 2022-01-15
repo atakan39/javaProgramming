@@ -1,4 +1,4 @@
-package Day31_Constructors;
+package day31_Constructors;
 
 public class Person {
     public String name;

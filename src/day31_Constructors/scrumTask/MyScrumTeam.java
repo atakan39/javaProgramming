@@ -1,6 +1,4 @@
-package Day31_Constructors.scrumTask;
-
-import java.util.Arrays;
+package day31_Constructors.scrumTask;
 
 public class MyScrumTeam {
     public static void main(String[] args) {
