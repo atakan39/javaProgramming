@@ -25,6 +25,8 @@ public class Cydeo {
         developer.drink();
         developer.fixingBugs();
 
+        System.out.println("Atakan");
+
 
     }
 }
