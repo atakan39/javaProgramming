@@ -1,6 +1,6 @@
-package day39_Recap.shapeTask;
+package day43_Abstractions.shapeTask;
 
-public class Circle extends Shape {
+public class Circle extends Shape{
     private double radius;
     public final static double pi = 3.14;
 
@@ -15,9 +15,9 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    public Circle( double radius) {
-        super("Circle");
-        setRadius(radius);
+    public Circle(String name, double radius) {
+        super(name);
+        this.radius = radius;
     }
 
     @Override
@@ -40,16 +40,4 @@ public class Circle extends Shape {
                 '}';
     }
 
-
 }
-/*
-Circle extends Shape:
-		variables:
-			radius
-			pi (static)
-		Encapsulate the field
-		Add a constructor to set the filed
-		area(): radius * radius * pi
-		perimeter(): 2 * radius * pi
-		toString(): r, pi, area, perimeter
- */

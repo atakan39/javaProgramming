@@ -1,4 +1,4 @@
-package day39_Recap.shapeTask;
+package day43_Abstractions.shapeTask;
 
 public abstract class Shape {
     private String name;
