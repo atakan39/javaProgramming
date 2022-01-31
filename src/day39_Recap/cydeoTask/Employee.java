@@ -1,6 +1,6 @@
 package day39_Recap.cydeoTask;
 
-public class Employee extends Person{
+public abstract class Employee extends Person{
     private long employeeId;
     private String jobTitle;
     private double salary;
@@ -49,9 +49,8 @@ public class Employee extends Person{
         this.salary = salary;
     }
 
-    public void work(){
-        System.out.println(jobTitle+getName()+" is working");
-    }
+    public abstract void work();
+
 
     @Override
     public String toString() {
