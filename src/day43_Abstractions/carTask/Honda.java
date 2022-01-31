@@ -1,8 +1,8 @@
 package day43_Abstractions.carTask;
 
 public class Honda extends Car{
-    public Honda( String model, int year, String color, double price) {
-        super("honda", model, year, color, price);
+    public Honda( String model,String color, int year,  double price) {
+        super("honda", model, color, year, price);
     }
 
     @Override

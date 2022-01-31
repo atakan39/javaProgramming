@@ -52,8 +52,8 @@ public class Person {
     }
 
     public void eat(){
-        System.out.println(name+" is eating");
-    }
+        System.out.println("eating");
+    };
 
     public void drink(){
         System.out.println(name+" is drinking");

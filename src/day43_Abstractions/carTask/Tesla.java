@@ -1,8 +1,8 @@
 package day43_Abstractions.carTask;
 
 public class Tesla extends Car{
-    public Tesla( String model, int year, String color, double price) {
-        super("tesla", model, year, color, price);
+    public Tesla( String model,String color, int year,  double price) {
+        super("tesla", model, color, year, price);
     }
 
     @Override

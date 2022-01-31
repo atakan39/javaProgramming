@@ -6,7 +6,7 @@ public abstract class Car {
     private final int year;
     private double price;
 
-    public Car(String make, String model, int year,String color, double price) {
+    public Car(String make, String model,String color, int year, double price) {
         this.make=make;
         this.model = model;
 
