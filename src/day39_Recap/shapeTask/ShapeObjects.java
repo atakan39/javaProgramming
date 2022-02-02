@@ -45,5 +45,21 @@ public class ShapeObjects {
 
         System.out.println(circle.getName());
 
+        Circle circle1=new Circle(5);
+
+    // static means all the circle has this   pi=3.14
+        System.out.println("-----------------------------------------------------------------------------");
+        System.out.println(circle);
+        System.out.println(circle1);
+
+
+
+        System.out.println("area of circle:"+ circle.area());;
+        System.out.println("area of circle1:"+circle1.area());
+
+        System.out.println(circle.pi);
+        System.out.println(Circle.pi);
+
+
     }
 }
