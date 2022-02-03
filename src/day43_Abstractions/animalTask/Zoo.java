@@ -5,13 +5,13 @@ public class Zoo {
 
         Tiger tiger = new Tiger("Siberian", 'M', "Large", 5, "Black and Orange");
 
-        Eagle eagle = new Eagle("American Eagle",'F', "Big", 3, "Brown");
+        Eagle eagle = new Eagle("American Eagle",'M', "Big", 3, "Brown");
 
-        Dog dog = new Dog("Husky", 'M', "Large",4, "Black and White");
+        Dog dog = new Dog("Husky", 'M', "Large",3, "Black and White");
 
         Eagle eagle2 = new Eagle("Golden" , 'M',"Large",7, "White and brown");
 
-        Cat cat = new Cat("Siamase",'F', "Medium", 5, "White");
+        Cat cat = new Cat("Siamase",'F', "Medium", 3, "White");
 
         Human human=new Human("atakan","Turkish",'M',"tall",30,"Turkish color");
 

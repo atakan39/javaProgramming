@@ -1,8 +1,8 @@
 package day39_Recap.shapeTask;
 
-public class Circle extends Shape {
+public final class Circle extends Shape {
     private double radius;
-    public final static double pi = 3.14;
+    public  final static double pi = 3.14;
 
     public double getRadius() {
         return radius;

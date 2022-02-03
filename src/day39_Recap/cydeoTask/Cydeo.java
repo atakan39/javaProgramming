@@ -5,7 +5,7 @@ public class Cydeo {
 
         Developer developer = new Developer("burak",29,'M',1,"java Developer",140000);
 
-        Tester tester = new Tester("Korkmaz",33,'M',3,"Sdet",123000);
+        Tester tester = new Tester("Korkmaz",33,'M',3,"Sdet",0);
 
         Teacher teacher = new Teacher("sidar",36,'F',2,"Math teacher",100000);
 
