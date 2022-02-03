@@ -9,6 +9,12 @@ public abstract class Animal {
     private String size;
     private final String color;
 
+    public final static boolean canBreath;
+
+    static {
+        canBreath=true;
+    }
+
     public Animal(String name, String breed, char gender, int age, String size, String color) {
         setName(name);
         this.breed = breed;
